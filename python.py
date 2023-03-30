@@ -35,4 +35,4 @@ def failure():
     return 'Incorrect username or password'
 
 if __name__ == "_main_":
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
